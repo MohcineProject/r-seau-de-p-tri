@@ -332,12 +332,12 @@ Arc 0: P0 -> T0 type : network.ArcV
 ```
 
 
-## Tests execution : 
+## Tests execution 
 To execute the tests for the software, the user must have JUnit installed. In eclipse, for example, he can then execute the package "network.tests" using the following commands : Run As -> JUnit. There is a total of 29 tests, that covers all of the PetriNetwork entities.
 
 
 ## Notes on the initial conception 
-The resulting software is similar to the conception phase, except for some few changes. The main modification we had to do was to change Arc class to abstract; since we are not using the class itself but rather we inherit from it. We also changed the name of the method "updateArcValue" -> "UpdateWeight" to be more coherent with the attributes names. Moreover, we removed the method getSens() from the class ArcN, since it was already defined in Arc (At the conception stage we changed the way we handle sens and we forgot to remove this method). Otherwise, the software respects the conception diagram. 
+The resulting software is similar to the UML diagram, except for some few changes. The main modification we had to do was to change Arc class to abstract; since we are not using the class itself but rather we inherit from it. We also changed the name of the method "updateArcValue" to "UpdateWeight", to be more coherent with the attributes names. Moreover, we removed the method getSens() from the class ArcN, since it was already defined in Arc (At the conception stage we changed the way we handle sens and we forgot to remove this method). Otherwise, the software respects the conception diagram. 
 
 ## Conclusion 
 We described earlier the classes, and we gave a brief summary of their main methods. We also discussed how the run the source code and the tests of the program. Finally, we wrote some notes on the conception and how it changed during the developing phase. Overall, the project was a valuable experience where we delved deeper in the object oriented paradigm, and we explored many of its features. 
