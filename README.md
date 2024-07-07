@@ -32,7 +32,7 @@ Transition is the abstraction of a transition in a network. It handles activatio
 ### UserInterface : 
 This interface is used to interact with the user using the console. It shows the user a set of actions he can execute and take as input his commands from the console. 
 
-## code execution : 
+## Code execution : 
 The PetriNetwork classes are used to reify the petri net. They do not possess any main methods. Therefore we created the UserInterface class, that interacts with the user trough the console and uses the PetriNetwork class in order to manipulate the network. 
 Thus, to interact with the network, the user needs to run the main function of the UserInterface class. 
 In the console, the first lines to be shown are used to insert the name of the network :
